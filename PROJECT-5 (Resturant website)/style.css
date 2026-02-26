@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    top: 0px;
+    background-attachment: fixed;
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(133, 129, 129);
+}
+
+.img1 {
+    padding-left: 50px;
+}
+
+.icon {
+    padding-right: 50px;
+}
+
+.section1 {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img2 {
+    padding-left: 100px;
+}
+
+.heading {
+    padding-left: 40px;
+}
+
+.head1 {
+    justify-items: center;
+    width: 175px;
+    height: 20px;
+    background-color: rgb(18, 134, 18);
+    color: WHITE;
+}
+
+.head2 {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.head3 {
+    padding-top: 15px;
+}
+
+#one {
+    font-weight: 500;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    justify-items: center;
+    background-color: burlywood;
+}
+
+#one:hover {
+    background-color: rgb(179, 129, 65);
+    height: 33px;
+    width: 105px;
+}
+
+.section2 {
+    padding-top: 130px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.fastdelivery,
+.freshfood,
+.discountvoucher {
+    width: 300px;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.freshfood:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.fastdelivery:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.discountvoucher:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.section3 {
+    padding-top: 60px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#two {
+    border: 2px solid white;
+    font-size: 15px;
+    justify-items: center;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(18, 134, 18);
+    color: WHITE;
+}
+
+#two:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.section4 {
+    justify-items: center;
+    padding-top: 40px;
+    width: 100%;
+    height: 800px;
+}
