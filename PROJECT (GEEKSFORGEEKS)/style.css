@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(173, 174, 174,0.2);
+}
+.main{
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    margin-top: 65px;
+    margin-left:400px ;
+    border-radius: 30px;
+}
+#one{
+    color: rgb(5, 130, 5);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#two{
+    font-size:25px ;
+    text-align: center;
+    margin-top: 40px;
+}
+#three{
+    margin-top: 80px;
+    margin-left:50px ;
+    font-size: 30px;
+    font-weight: 500;
+}
+#four{
+    margin-top: 10px;
+}
+.button{
+    background-color:rgb(5, 130, 5) ;
+    margin-top: 80px;
+    margin-left:50px ;
+    width: 600px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+#five{
+    
+    margin-left: 50px;
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(173, 173, 173);
+}
+#six{
+    display: flex;
+    margin-top: 45px;
+    margin-left:230px ;
+    font-size: 20px;
+}
