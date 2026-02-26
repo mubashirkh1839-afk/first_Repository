@@ -1,0 +1,80 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img1{
+   background-image: url('image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.section1{
+   font-size: 30px;
+    background-color: rgb(22, 27, 27);
+    color: white;
+    height: 38px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section1:hover {
+  transform: scale(1.1); /* Increases size by 10% */
+  box-shadow: 0 0 20px 5px black; /* Creates the glow effect */
+}
+.section2{
+    height: 300px;
+    color: dimgray;
+}
+h1{
+    padding-top: 30px;
+    padding-left: 680px;
+}
+p{
+    padding-top: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300px;
+}
+.img2{
+background-image: url('image2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.section3{
+    font-size: 30px;
+    background-color: white;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+    height: 38px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section3:hover {
+  transform: scale(1.1); /* Increases size by 10% */
+  box-shadow: 0 0 20px 5px black; /* Creates the glow effect */
+}
+.section4{
+     height: 300px;
+    color: dimgray;
+    background-color: black;
+}
+.img3{
+    background-image: url('image3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
